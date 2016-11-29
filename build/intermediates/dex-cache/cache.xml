@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.6.1_c6895e98c2da3d98e9bbdd04d03f8f68ac6cd752.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_80f1db1c230a52a02c780ce5456acbaf791d19eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\hani.momanii.supernova_emoji_library\supernova-emoji-library\0.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b83e82da8c456a9766711909d277d6bdda6c0a24">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\hani.momanii.supernova_emoji_library-supernova-emoji-library-0.0.2_137822654945673fe38eb96e1166b4322db71562.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0cae6511c5705869cacf199f8abb0ea84cd10157">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-vision-9.6.1_a4a1014e597124e2ae030ddadf570692d18afac3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\com.jakewharton-butterknife-8.4.0_48541f81c432522a8e92e8a05119ca87d7f26c4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\retrofit-2.1.0_02bda736422a25f3241d1b688c38a3b7f64514ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_0e7de90025fadf32f78a95da3bda26d10a928685.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_15d66ea913c018199430363c9bf35dabaf95a29f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_8cd6410a352f9aa1f8747d47f608b63e89e81091.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_beb1a1e020177d9c5640eddc6b536a5236bc6dbe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-9.6.1_04f911ffc3573aa79ecf6f0cf7dc7b2efcbe2aad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_c539cfdb3d9cccad6449fab112895bd021ffeae0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-9.6.1_b2d36833af5d23f5ab0cf6936cc6dab5c6c917ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_83cdea42b6f1ad343e78cc228b5fccd190e03ae2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.4.0_f1ce3b3c32656002b6c68d07b52f554b7b0ba8da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.6.1_8bf831a5b03d98f085df5aaf9d12e054cdf0f7d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\gson-2.7_b214c90937ddbfc74b026ff1b9996cd196b2602c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_dd527767c8bbdf208e37aff859d1b0558ef419f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.prolificinteractive\material-calendarview\1.4.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0d86ad5b79ed5d4394b3f4011ec90a7d9b876fcb">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\com.prolificinteractive-material-calendarview-1.4.2_0c0a125441dd00dd2d3e08087dea3f8273d13292.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.4.0_ddba632e3319db86c60fcd4f07be3682b2451c4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\converter-gson-2.1.0_d2c7c6fa7c4166927de1e042517837b44ecfe5c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_fe55defdb7d3ada4806f815fbe0c50bd7c39ffd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c03510b50b219f9d9dfc6031ad9741f2818771b0">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_24e1cb1364fa63be906b7705e48c460140cd033c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.6.1_ae2478e29dc17d443b32a90efd7d8774a9cfa73b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\okhttp-3.3.0_a800903686206ec57063446207c47865c77812be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\okio-1.8.0_880e86f54a5598f3f66b66ca7ff37351b69d71b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a76050966c8bb00f58da18f31a981ccbd689c7c0">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\instant-run_ef058e1a991f6d06701e0497ab8eef3ce835db56.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_4b535c17f760e28169c1405f1df0b67c4418a82f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_26c5513b54088d3eed0d1c0eb958c55617d5e3ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_57927b990544cd49f1f21b517ccbfadab51a8f3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.android.support\customtabs\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\com.android.support-customtabs-23.4.0_bb54317d4c3a0cff2c08b723ba1476011e9b989c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_f2832a512d5c6a8a337d7a0ea7aa1eda1211186b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.6.1_5723886e60152c4433596b38b674df8366943244.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_6be6567e2da4d26449ba2e04558ebec64d17bc62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_9be9357ab5155663eec744fa7706d6ab4ae5524c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-9.6.1_28d360c3e2d067f6ea854742611dd05750ce6ed7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-crash-9.4.0_8f095d07cb55e8342933cc3e1972cb9102881761.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.4.0_8834fe912737dfa0651e3a86c0219d8296082165.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\OLORIAKE KEHINDE\Downloads\ANDROID\AndroidPlayGround\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_54b5dd8d917b3025f80b8999b1842b0e4ad0f34f.jar" />
+    </item>
+
+</items>

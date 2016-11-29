@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1051830403248",
+    "firebase_url": "https://androidplayground-c23d6.firebaseio.com",
+    "project_id": "androidplayground-c23d6",
+    "storage_bucket": "androidplayground-c23d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051830403248:android:f3bb1130fee80266",
+        "android_client_info": {
+          "package_name": "com.taiyeoloriade.androidplayground"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051830403248-63abk2c9aruj8jkro6fbg05d0d4enstl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVbAwfcioCW8wKZ7rVDhGIatikzGw9mrQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
