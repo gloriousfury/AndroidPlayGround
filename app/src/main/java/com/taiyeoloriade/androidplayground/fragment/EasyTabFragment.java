@@ -1,4 +1,4 @@
-package com.taiyeoloriade.androidplayground.activity;
+package com.taiyeoloriade.androidplayground.fragment;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -9,23 +9,14 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextView;
+import android.view.ViewGroup;
 
 import com.taiyeoloriade.androidplayground.R;
-import com.taiyeoloriade.androidplayground.fragment.CalendarFragment;
-import com.taiyeoloriade.androidplayground.fragment.EasyFragment;
-import com.taiyeoloriade.androidplayground.fragment.TodoFragment;
-import com.taiyeoloriade.androidplayground.fragment.ViewTodoFragment;
 
-import butterknife.BindView;
-
-import static android.R.attr.thumbnail;
-
-public class TodoFragmentActivity extends AppCompatActivity {
+public class EasyTabFragment extends Fragment {
 
     FragmentManager mFragmentManager;
     FragmentTransaction mFragmentTransaction;
@@ -35,17 +26,19 @@ public class TodoFragmentActivity extends AppCompatActivity {
     ViewPager mViewPager;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragment_todo);
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);}
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle(" ");
-
-        tabLayout = (TabLayout) findViewById(R.id.tabLayout);
-        mViewPager = (ViewPager) findViewById(R.id.viewpager);
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        View v = inflater.inflate(R.layout.easy_tabactivity, container, false);
+        tabLayout = (TabLayout) v.findViewById(R.id.tabLayout);
+        mViewPager = (ViewPager) v.findViewById(R.id.viewpager);
+        getActivity().getActionBar().setTitle(" ");
         setUpViews();
-
+        return v;
 
 
     }
@@ -53,7 +46,7 @@ public class TodoFragmentActivity extends AppCompatActivity {
     private void setUpViews() {
 
 
-        mSectionsPagerAdapter = new TodoSectionsPagerAdapter(getSupportFragmentManager());
+        mSectionsPagerAdapter = new TodoSectionsPagerAdapter(getFragmentManager());
 
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
@@ -61,20 +54,6 @@ public class TodoFragmentActivity extends AppCompatActivity {
     }
 
 
-
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                // API 5+ solution
-                onBackPressed();
-                return true;
-
-            default:
-                return super.onOptionsItemSelected(item);
-        }
-    }
 
     public class TodoSectionsPagerAdapter extends FragmentPagerAdapter {
 
