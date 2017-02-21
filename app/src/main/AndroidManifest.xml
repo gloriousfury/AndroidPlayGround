@@ -56,6 +56,10 @@
         <activity android:name=".activity.TodoFragmentActivity">
 
         </activity>
+
+        <activity android:name=".activity.ViewPagerActivity">
+
+        </activity>
     </application>
 
 </manifest>

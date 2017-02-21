@@ -20,6 +20,7 @@ import com.taiyeoloriade.androidplayground.activity.RetrofitActivity;
 import com.taiyeoloriade.androidplayground.activity.SnackBarActivity;
 import com.taiyeoloriade.androidplayground.activity.TodoActivity;
 import com.taiyeoloriade.androidplayground.activity.TodoFragmentActivity;
+import com.taiyeoloriade.androidplayground.activity.ViewPagerActivity;
 import com.taiyeoloriade.androidplayground.model.Menu_Title;
 
 import java.util.List;
@@ -108,6 +109,14 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
 
                     break;
 
+                case 6:
+
+
+                    Intent ViewPager = new Intent(context, ViewPagerActivity.class);
+                    context.startActivity(ViewPager);
+
+                    break;
+
 
                 default:
 
@@ -165,6 +174,10 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
 
 
             holder.layout.setBackgroundColor(ContextCompat.getColor(context, R.color.color_6));
+
+        }else if (position == 6){
+
+            holder.layout.setBackgroundColor(ContextCompat.getColor(context, R.color.color_2));
 
         }
 

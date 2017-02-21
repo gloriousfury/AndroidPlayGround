@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.taiyeoloriade.androidplayground.activity.MainActivity"
+
+    >
+
+
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/videoview"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+
+
+
+        />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:alpha="0.5"
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/logo"
+        android:textSize="@dimen/thirty"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/thirty"
+        />
+    
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="@dimen/two_fifty"
+        android:layout_height="@dimen/two_fifty"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/fifty"
+        android:layout_below="@+id/logo"
+
+
+        >
+
+
+
+
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/layoutDots"
+        android:layout_width="@dimen/two_fifty"
+        android:layout_height="@dimen/dots_height"
+
+
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_below="@+id/viewPager"
+        android:layout_centerHorizontal="true"
+        ></LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fifty"
+        android:text="Start with PayCapture"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/ten"
+        android:background="@drawable/viewpager_border"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+
+        />
+
+
+</RelativeLayout>

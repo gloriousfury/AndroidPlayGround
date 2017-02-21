@@ -56,7 +56,8 @@ public class MainActivity extends AppCompatActivity {
             "AppBarLayout",
             "Chrome Custom Tabs",
             "SqlLite",
-            "Todo List"
+            "Todo List",
+            "PayWithCapture Landing"
 
 
     };
@@ -68,19 +69,21 @@ public class MainActivity extends AppCompatActivity {
             "Another support implementation",
             "The awesome chrome tabs",
             "tutorial implementation of the sqlite",
-            "starting work on a todo work application"
+            "starting work on a todo work application",
+            "an interface with a minimized video playing in the background"
 
 
     };
 
 
     private final String duration[] = {
-            "1 week ago",
-            "2 days ago",
-            "2 weeks ago",
-            "4 days ago",
-            "2 days ago",
-            "2 days ago"
+            "weeks ago",
+            "weeks ago",
+            "weeks ago",
+            "weeks ago",
+            "weeks ago",
+            "weeks ago",
+            "weeks ago"
 
 
     };
