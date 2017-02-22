@@ -32,8 +32,8 @@ public class ViewPagerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_paywithcapture);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle(" ");
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        getSupportActionBar().setTitle(" ");
 
         //StartingVideo
         videoview = (VideoView) findViewById(R.id.videoview);

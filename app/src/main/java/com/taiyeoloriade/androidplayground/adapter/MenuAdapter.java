@@ -16,6 +16,7 @@ import com.taiyeoloriade.androidplayground.R;
 import com.taiyeoloriade.androidplayground.activity.AndroidSqlLiteActivity;
 import com.taiyeoloriade.androidplayground.activity.AppBarActivity;
 import com.taiyeoloriade.androidplayground.activity.CustomTabsActivity;
+import com.taiyeoloriade.androidplayground.activity.PaymentActivity;
 import com.taiyeoloriade.androidplayground.activity.RetrofitActivity;
 import com.taiyeoloriade.androidplayground.activity.SnackBarActivity;
 import com.taiyeoloriade.androidplayground.activity.TodoActivity;
@@ -25,6 +26,7 @@ import com.taiyeoloriade.androidplayground.model.Menu_Title;
 
 import java.util.List;
 
+import static android.R.attr.category;
 import static android.media.CamcorderProfile.get;
 
 import static com.taiyeoloriade.androidplayground.R.id.custom;
@@ -55,7 +57,7 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
             view.setClickable(true);
             view.setOnClickListener(this);
             title = (TextView) view.findViewById(R.id.menu_item);
-            desc =  (TextView) view.findViewById(R.id.menu_description);
+            desc = (TextView) view.findViewById(R.id.menu_description);
             duration = (TextView) view.findViewById(R.id.duration);
             layout = (LinearLayout) view.findViewById(R.id.linear_layout);
 
@@ -64,64 +66,44 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
         @Override
         public void onClick(View v) {
 
-            switch (getAdapterPosition()) {
 
-                case 0:
-
-                    Intent retrofit = new Intent(context, RetrofitActivity.class);
-                    context.startActivity(retrofit);
-
-                    break;
-                case 1:
+            String title = title_list.get(getAdapterPosition()).getTitle();
 
 
-                    Intent snackbar = new Intent(context, SnackBarActivity.class);
-                    context.startActivity(snackbar);
+            if(title.contentEquals("PayWithCapture Landing" )){
 
-                    break;
-                case 2:
-
-
-                    Intent appbarlayout = new Intent(context, AppBarActivity.class);
-                    context.startActivity(appbarlayout);
-
-                    break;
-                case 3:
+                Intent ViewPager = new Intent(context, ViewPagerActivity.class);
+                context.startActivity(ViewPager);
 
 
-                    Intent customTabs = new Intent(context, CustomTabsActivity.class);
-                    context.startActivity(customTabs);
+            }else if (title.contentEquals("Todo List" )){
 
-                    break;
-                case 4:
+                Intent todo = new Intent(context, TodoFragmentActivity.class);
+                context.startActivity(todo);
 
+            }else if (title.contentEquals("Chrome Custom Tabs" )){
 
-                    Intent sqlite = new Intent(context, AndroidSqlLiteActivity.class);
-                    context.startActivity(sqlite);
+                Intent customTabs = new Intent(context, CustomTabsActivity.class);
+                context.startActivity(customTabs);
 
-                    break;
+            }else if (title.contentEquals("SqlLite" )){
 
-                case 5:
+                Intent sqlite = new Intent(context, AndroidSqlLiteActivity.class);
+                context.startActivity(sqlite);
 
-
-                    Intent todo = new Intent(context, TodoFragmentActivity.class);
-                    context.startActivity(todo);
-
-                    break;
-
-                case 6:
+            }else if (title.contentEquals("SnackBar Test" )){
 
 
-                    Intent ViewPager = new Intent(context, ViewPagerActivity.class);
-                    context.startActivity(ViewPager);
-
-                    break;
-
-
-                default:
+                Intent snackbar = new Intent(context, SnackBarActivity.class);
+                context.startActivity(snackbar);
+            }else if (title.contentEquals("Payment Interface" )){
 
 
+                Intent payment = new Intent(context, PaymentActivity.class);
+                context.startActivity(payment);
             }
+
+
 
         }
     }
@@ -147,35 +129,35 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
     private void ChangeLayoutBackground(ViewHolder holder, int position) {
 
 
-        if (position == 0){
+        if (position == 0) {
 
             holder.layout.setBackgroundColor(ContextCompat.getColor(context, R.color.color_1));
-        }else if (position ==1){
+        } else if (position == 1) {
 
 
             holder.layout.setBackgroundColor(ContextCompat.getColor(context, R.color.color_2));
 
-        }else if (position ==2){
+        } else if (position == 2) {
 
 
             holder.layout.setBackgroundColor(ContextCompat.getColor(context, R.color.color_3));
 
-        }else if (position ==3){
+        } else if (position == 3) {
 
 
             holder.layout.setBackgroundColor(ContextCompat.getColor(context, R.color.color_4));
 
-        }else if (position ==4){
+        } else if (position == 4) {
 
 
             holder.layout.setBackgroundColor(ContextCompat.getColor(context, R.color.color_5));
 
-        }else if (position ==5){
+        } else if (position == 5) {
 
 
             holder.layout.setBackgroundColor(ContextCompat.getColor(context, R.color.color_6));
 
-        }else if (position == 6){
+        } else if (position == 6) {
 
             holder.layout.setBackgroundColor(ContextCompat.getColor(context, R.color.color_2));
 

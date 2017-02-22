@@ -57,7 +57,12 @@
 
         </activity>
 
-        <activity android:name=".activity.ViewPagerActivity">
+        <activity android:name=".activity.ViewPagerActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            ></activity>
+        <activity android:name=".activity.PaymentActivity"
+
+            >
 
         </activity>
     </application>

@@ -51,26 +51,32 @@ public class MainActivity extends AppCompatActivity {
 
 
     private final String title[] = {
-            "Retrofit 2.0",
-            "SnackBar Test",
-            "AppBarLayout",
+
+            "PayWithCapture Landing",
+            "Todo List",
             "Chrome Custom Tabs",
             "SqlLite",
-            "Todo List",
-            "PayWithCapture Landing"
+            "SnackBar Test",
+            "Payment Interface"
+
+
 
 
     };
 
 
     private final String about[] = {
-            "A connection library",
-            "Android support design implementation",
-            "Another support implementation",
+            "an interface with a minimized video playing in the background",
+            "starting work on a todo work application",
             "The awesome chrome tabs",
             "tutorial implementation of the sqlite",
-            "starting work on a todo work application",
-            "an interface with a minimized video playing in the background"
+            "Android support design implementation",
+            "A nice payment interface"
+
+
+
+
+
 
 
     };
@@ -83,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
             "weeks ago",
             "weeks ago",
             "weeks ago",
-            "weeks ago"
+
 
 
     };
