@@ -44,7 +44,7 @@
         android:textStyle="bold"
         android:id="@+id/logo"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/thirty"
+        android:layout_marginTop="@dimen/fifty"
         />
     
     
@@ -56,6 +56,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/fifty"
         android:layout_below="@+id/logo"
+        android:overScrollMode="never"
 
 
         >
@@ -69,8 +70,6 @@
         android:id="@+id/layoutDots"
         android:layout_width="@dimen/two_fifty"
         android:layout_height="@dimen/dots_height"
-
-
         android:gravity="center"
         android:orientation="horizontal"
         android:layout_below="@+id/viewPager"

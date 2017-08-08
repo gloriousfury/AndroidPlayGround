@@ -5,7 +5,7 @@ package com.taiyeoloriade.androidplayground.model;
  */
 
 public class Menu_Title {
-    ;
+
     private String title;
     private String about;
     private String time_interval;

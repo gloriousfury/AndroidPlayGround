@@ -12,17 +12,20 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.taiyeoloriade.androidplayground.LoginActivity2;
 import com.taiyeoloriade.androidplayground.R;
 import com.taiyeoloriade.androidplayground.activity.AndroidSqlLiteActivity;
 import com.taiyeoloriade.androidplayground.activity.AppBarActivity;
 import com.taiyeoloriade.androidplayground.activity.CustomTabsActivity;
+import com.taiyeoloriade.androidplayground.activity.LoginActivity;
 import com.taiyeoloriade.androidplayground.activity.PaymentActivity;
 import com.taiyeoloriade.androidplayground.activity.RetrofitActivity;
 import com.taiyeoloriade.androidplayground.activity.SnackBarActivity;
 import com.taiyeoloriade.androidplayground.activity.TodoActivity;
 import com.taiyeoloriade.androidplayground.activity.TodoFragmentActivity;
 import com.taiyeoloriade.androidplayground.activity.ViewPagerActivity;
-import com.taiyeoloriade.androidplayground.model.Menu_Title;
+
+import com.taiyeoloriade.androidplayground.model.Project;
 
 import java.util.List;
 
@@ -39,11 +42,11 @@ import static com.taiyeoloriade.androidplayground.R.id.menu_item;
 
 public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
     Context context;
-    private List<Menu_Title> title_list;
+    private List<Project> project_list;
 
-    public MenuAdapter(Context context, List<Menu_Title> menu_title) {
+    public MenuAdapter(Context context, List<Project> project_list) {
         this.context = context;
-        this.title_list = menu_title;
+        this.project_list = project_list;
 
 
     }
@@ -67,42 +70,46 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
         public void onClick(View v) {
 
 
-            String title = title_list.get(getAdapterPosition()).getTitle();
+            String title = project_list.get(getAdapterPosition()).getTitle();
 
 
-            if(title.contentEquals("PayWithCapture Landing" )){
+            if (title.contentEquals("PayWithCapture Landing")) {
 
                 Intent ViewPager = new Intent(context, ViewPagerActivity.class);
                 context.startActivity(ViewPager);
 
 
-            }else if (title.contentEquals("Todo List" )){
+            } else if (title.contentEquals("Todo List")) {
 
                 Intent todo = new Intent(context, TodoFragmentActivity.class);
                 context.startActivity(todo);
 
-            }else if (title.contentEquals("Chrome Custom Tabs" )){
+            } else if (title.contentEquals("Chrome Custom Tabs")) {
 
                 Intent customTabs = new Intent(context, CustomTabsActivity.class);
                 context.startActivity(customTabs);
 
-            }else if (title.contentEquals("SqlLite" )){
+            } else if (title.contentEquals("SqlLite")) {
 
                 Intent sqlite = new Intent(context, AndroidSqlLiteActivity.class);
                 context.startActivity(sqlite);
 
-            }else if (title.contentEquals("SnackBar Test" )){
+            } else if (title.contentEquals("SnackBar Test")) {
 
 
                 Intent snackbar = new Intent(context, SnackBarActivity.class);
                 context.startActivity(snackbar);
-            }else if (title.contentEquals("Payment Interface" )){
+            } else if (title.contentEquals("Payment Interface")) {
 
 
                 Intent payment = new Intent(context, PaymentActivity.class);
                 context.startActivity(payment);
-            }
+            } else if (title.contentEquals("Firebase Chatroom")) {
 
+
+                Intent payment = new Intent(context, LoginActivity.class);
+                context.startActivity(payment);
+            }
 
 
         }
@@ -116,9 +123,9 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        holder.title.setText(title_list.get(position).getTitle());
-        holder.desc.setText(title_list.get(position).getAbout());
-        holder.duration.setText(title_list.get(position).getTime_interval());
+        holder.title.setText(project_list.get(position).getTitle());
+        holder.desc.setText(project_list.get(position).getDescription());
+        holder.duration.setText(" Weeks ago");
 
 
         ChangeLayoutBackground(holder, position);
@@ -128,6 +135,12 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
 
     private void ChangeLayoutBackground(ViewHolder holder, int position) {
 
+        if (position > 9) {
+            String positionString = String.valueOf(position);
+            positionString.substring(0, 1);
+
+            position = Integer.parseInt(positionString);
+        }
 
         if (position == 0) {
 
@@ -167,6 +180,6 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
 
     @Override
     public int getItemCount() {
-        return title_list.size();
+        return project_list.size();
     }
 }

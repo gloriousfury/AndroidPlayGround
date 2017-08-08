@@ -1,11 +1,8 @@
 <component name="libraryTable">
   <library name="material-calendarview-1.4.2">
-    <ANNOTATIONS>
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.prolificinteractive/material-calendarview/1.4.2/annotations.zip!/" />
-    </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.prolificinteractive/material-calendarview/1.4.2/res" />
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.prolificinteractive/material-calendarview/1.4.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/827ea680b7828752d8a499fc5b919be0c7c56b09/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/827ea680b7828752d8a499fc5b919be0c7c56b09/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
